@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color:white;
+}
+h1{
+    text-align: center;
+    margin-top:50px;
+}
+
+#cont{
+    display:flex;
+    /* flex-direction: column; */
+    text-align: center;
+    justify-content: center;
+    gap:30px;
+}
+#btn{
+    width:130px;
+   
+}
+#cont2{
+    display:none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#cont3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+#weather_data{
+    display:none;
+    background-color: white;
+    color:black;
+    margin:15px;
+    padding:24px;
+}
+
+#inner_info{
+    border:2px solid black;
+    padding:10px;
+}
+
